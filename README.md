@@ -2,5 +2,5 @@
 
 List of implemented algorithms:
 
-* Binary Search Tree
+* Binary Search Tree \n
 Methods: insert, find, remove, clear, show, isEmpty.
