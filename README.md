@@ -1,2 +1,6 @@
 # Algorithms
-Implementation of various algorithms
+
+List of implemented algorithms:
+
+* Binary Search Tree
+Methods: insert, find, remove, clear, show, isEmpty.
