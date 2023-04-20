@@ -40,7 +40,7 @@ int main()
         {
 
         case 'P': case 'p':
-            print_help();
+            print_help();  
             break;
 
         case '+':                                  // insert
@@ -49,14 +49,14 @@ int main()
             testTree.insert(testData);
             break;
 
-        case '-':
+        case '-':                                  //delete
             testData.setKey(inputKey);
             cout << "Remove : key = " << testData.getKey() << endl;
             testTree.remove(inputKey);
             break;
 
         case '?': testData.setKey(inputKey);
-            cout << "Search/retrieve : key = " << testData.getKey() << endl;
+            cout << "Search/find : key = " << testData.getKey() << endl;
             if (testTree.find(inputKey)) cout << "Element '" << testData.getKey() << "' exist." << endl;
             else cout << "Element " << testData.getKey() << " NOT exist.";
             break;
