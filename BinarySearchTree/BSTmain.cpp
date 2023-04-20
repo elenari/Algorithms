@@ -21,8 +21,8 @@ int main()
 
 {
 
-    BSTree<TestData, int> testTree;   // Test binary search tree
-    TestData testData;               // Binary search tree data item
+    BSTree<DataNode, int> testTree;   // Test binary search tree
+    DataNode testData;               // Binary search tree data item
     int inputKey = 0;                // User input key
     char cmd;                        // Input command
 
